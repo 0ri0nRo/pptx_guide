@@ -1,0 +1,76 @@
+
+\documentclass[10pt,landscape]{article}
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+\usepackage{multicol,multirow}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
+
+
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+	}
+\pagestyle{empty}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+% -----------------------------------------------------------------------
+
+\title{Quick Guide to PowerPoint}
+
+\begin{document}
+
+\raggedright
+\footnotesize
+
+\begin{center}
+     \Large{\textbf{Come Evitare la Morte per PowerPoint}} \\
+\end{center}
+\begin{multicols}{2}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\section{Introduzione}
+Questo documento è una guida basata sul discorso "Come Evitare la Morte per PowerPoint" tradotto in italiano. Fornisce una panoramica delle principali idee e concetti presentati nel discorso.
+
+\section{Messaggio Principale}
+Il primo principio fondamentale per migliorare le presentazioni PowerPoint è quello di limitare ogni slide a un solo messaggio chiave. Questo aiuta a mantenere l'attenzione dell'audience e a garantire una migliore comprensione del materiale presentato. Un solo messaggio per diapositiva. Messaggio breve e preciso accanto ad un'immagine. 
+
+\section{Utilizzo della Memoria di Lavoro}
+Il discorso sottolinea l'importanza di non sovraccaricare le slide con testo, in quanto ciò può rendere difficile per l'audience comprendere e ricordare le informazioni presentate. Utilizzare immagini e brevi frammenti di testo può migliorare significativamente l'efficacia della presentazione.
+
+\section{Dimensione degli Elementi}
+Un'altra considerazione importante è la dimensione degli elementi sulla slide. È consigliabile utilizzare dimensioni di testo e immagini che catturino l'attenzione dell'audience e facilitino la comprensione del contenuto. Una slide deve durare circa 2/3 min. La parte più importante non è il titolo ma il contenuto. Bisogna far si che la parte più importante della diapositiva sia la più grande.
+
+\section{Contrasto e Attenzione}
+Il contrasto è cruciale per guidare l'attenzione dell'audience verso gli elementi chiave della slide. Utilizzare colori e dimensioni contrastanti può aiutare a evidenziare le informazioni più importanti e a migliorare l'esperienza complessiva della presentazione.
+
+\section{Numero di Oggetti per Slide}
+Infine, è importante limitare il numero di oggetti presenti su ogni slide per evitare sovraccaricare l'audience con troppe informazioni. Il discorso raccomanda di mantenere il numero di oggetti a circa sei per slide, per garantire una maggiore comprensione e retention delle informazioni presentate.
+
+\section{Conclusioni}
+La guida fornisce un'analisi delle principali strategie per migliorare le presentazioni PowerPoint, basate sul discorso "Come Evitare la Morte per PowerPoint". Seguire questi principi può aiutare a creare presentazioni più efficaci e coinvolgenti per l'audience.
+
+\end{multicols}
+
+\end{document}
